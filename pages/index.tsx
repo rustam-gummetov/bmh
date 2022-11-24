@@ -71,7 +71,7 @@ const HomePage = () =>
                     +7 996 693-45-69
                 </PhoneNumberText>
                 <MapsHolder>
-                    <a target={"_blank"} href={"https://yandex.ru/maps/44/izhevsk/house/avangardnaya_ulitsa_6/YUoYdAVoSEwHQFtsfXR3cHxkZg==/?indoorLevel=1&ll=53.228190%2C56.861072&z=17"}>
+                    <a target={"_blank"} rel={"noopener"} href={"https://yandex.ru/maps/44/izhevsk/house/avangardnaya_ulitsa_6/YUoYdAVoSEwHQFtsfXR3cHxkZg==/?indoorLevel=1&ll=53.228190%2C56.861072&z=17"}>
                         <Image
                             src={Maps}
                             height='50'
@@ -82,7 +82,7 @@ const HomePage = () =>
             </Address>
             <Networks>
                 <NetworkHolder>
-                    <a target={"_blank"} href={"https://vk.com/dora_hair"}>
+                    <a target={"_blank"} rel={"noopener"} href={"https://vk.com/dora_hair"}>
                         <Image
                             src={Vk}
                             height='40'
@@ -91,7 +91,7 @@ const HomePage = () =>
                     </a>
                 </NetworkHolder>
                 <NetworkHolder>
-                    <a target={"_blank"} href={"https://instagram.com/cany_doy?igshid=YmMyMTA2M2Y="}>
+                    <a target={"_blank"} rel={"noopener"} href={"https://instagram.com/cany_doy?igshid=YmMyMTA2M2Y="}>
                         <Image
                             src={Instagram}
                             height='40'
@@ -100,7 +100,7 @@ const HomePage = () =>
                     </a>
                 </NetworkHolder>
                 <NetworkHolder>
-                    <a target={"_blank"} href={"https://t.me/dorasin"}>
+                    <a target={"_blank"} rel={"noopener"} href={"https://t.me/dorasin"}>
                         <Image
                             // src={"https://www.redwhite.ru/upload/iblock/229/qdq6pl4v3arkhirauqjm01869b4hj52r/tg.png"}
                             src={Telegram}
