@@ -10,6 +10,7 @@ export const SignUpOnlineDiv = styled.div`
     background-color: yellow;
     display: flex;
     justify-content: center;
+    opacity: 0.8;
     cursor: pointer;
     z-index: 1;
 
