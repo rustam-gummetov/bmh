@@ -7,7 +7,7 @@ import Price from './price'
 import SignUpOnline from './signUpOnline'
 import Examples from './examples'
 import Map from './map'
-import Footer from './Footer'
+import Footer from './footer'
 import SignUpOnlineButton from './signUpOnlineButton'
 
 const HomePage = () =>
