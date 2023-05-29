@@ -66,6 +66,11 @@ export const Title = styled.h1`
 export const Form = styled.form`
     /* border: 1px solid white; */
     padding: 300px 10px;
+    @media (max-width: 600px) {
+        padding: 50px 10px;
+        height: 30px;
+        font-size: 20px;
+    }
     /* text-align: center; */
 `
 
