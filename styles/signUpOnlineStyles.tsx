@@ -3,7 +3,7 @@ import InputMask from "react-input-mask";
 
 export const SignUpOnlineDiv = styled.div`
     /* background-color: rgb(87, 82, 82); */
-    background-color: rgb(71, 71, 71);
+    background-color: black;
     background-size: cover;
     /* animation: changeBackground 15s infinite, changeOpacity 5s infinite 3.8s;
 
@@ -78,14 +78,24 @@ export const Text = styled.p`
 
 export const Select = styled.select`
     font-size: 30px;
-    padding: 10px;
-    color: white;
-    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0 10px;
+    font-size: 25px;
     border: 0;
     cursor: pointer;
     display: block;
     text-align: center;
-    margin: auto;
+    margin: auto auto 20px auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    @media (max-width: 600px) {
+        height: 30px;
+        font-size: 20px;
+    }
 `
 
 export const Option = styled.option`
@@ -134,7 +144,7 @@ export const InputMaskContainer = styled(InputMask)`
 export const Button = styled.button`
     width: 200px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 25px;
     align-self: center;
     border: 1px solid gray;

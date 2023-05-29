@@ -19,7 +19,9 @@ body {
     background-color: black;
     position: relative;
     /* height: auto; */
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+    /* display: flex; */
+    /* width: 100%; */
 }
 
 @font-face {
@@ -38,7 +40,7 @@ body {
     padding: 0;
     font-family: 'GoogleSans';
 }
-`;
+`
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
