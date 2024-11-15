@@ -1,7 +1,7 @@
 import { FormEvent } from "react";
 import {
     SignUpOnlineDiv, FormContainer, Title, Form, Text, Select,
-    Option, Label, Input, Button, InputMaskContainer
+    Option, Label, Input, Button, InputMaskContainer, TextButton, Text2
 } from "../styles/signUpOnlineStyles";
 import $ from 'jquery';
 
@@ -110,18 +110,20 @@ const SignUpOnline = () => {
                         placeholder="8(999)999-99-99"
                         onChange={(number) => user.phoneNumber = number.target.value}
                     />
-                    <Text>
+                    {/* <Text>
                         Ссылка на мессенджер:
                     </Text>
                     <Input
                         id="link"
                         required
                         onChange={(link) => user.link = link.target.value}
-                    />
+                    /> */}
                     <Button
                         type="submit"
                     >
-                        Отправить
+                        <TextButton>
+                            Отправить
+                        </TextButton>
                     </Button>
                 </FormContainer>
             </Form>

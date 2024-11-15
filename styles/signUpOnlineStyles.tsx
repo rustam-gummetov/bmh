@@ -61,11 +61,12 @@ export const Title = styled.h1`
     font-size: 50px;
     color: white;
     padding: 10px;
+    text-align: center;
 `
 
 export const Form = styled.form`
     /* border: 1px solid white; */
-    padding: 300px 10px;
+    padding: 30px 10px;
     @media (max-width: 600px) {
         padding: 50px 10px;
         height: 30px;
@@ -152,7 +153,7 @@ export const Button = styled.button`
     margin-top: 30px;
     font-size: 25px;
     align-self: center;
-    border: 1px solid gray;
+    border: 3px solid #9e29d4;
     border-radius: 20px;
     align-items: center;
     cursor: pointer;
@@ -162,8 +163,30 @@ export const Button = styled.button`
     position: relative;
     z-index: 1; 
     overflow: hidden;
+    transition: 0.2s;
 
     :hover {
         background-color: #c4beb3;
+    }
+`
+
+export const TextButton = styled.p`
+    font-size: 25px;
+    color: #9e29d4;
+
+    @media (max-width: 767px) {
+        font-size: 20px;
+        padding-bottom: 3px;
+    }
+`
+
+export const Text2 = styled.p`
+    display: none;
+
+    @media (max-width: 767px) {
+        display: block;
+        color: #5c5959;
+        padding-bottom: 30px;
+        font-size: 20px;
     }
 `
