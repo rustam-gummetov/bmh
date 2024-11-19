@@ -89,4 +89,5 @@ export const Image = styled.img`
 
 export const Link = styled.a`
     text-decoration: none;
+    color: #5c5959;
 `

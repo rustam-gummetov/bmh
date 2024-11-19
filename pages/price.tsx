@@ -1,22 +1,22 @@
 import { FormEvent } from "react";
 import {
-    Price, Text, Pictures, Image, Text2, Button, TextButton, Link
+    Price, Text, Pictures, Image, Button, TextButton, Link, Title
 } from "../styles/priceStyles";
-import photoPrice from '../Pictures/price.jpeg'
+import photoPrice from '../Pictures/price2.jpeg'
 
 const price = () => {
     return (
         <Price>
-            <Text>
+            <Title>
                 Актуальный прайс лист
-            </Text>
+            </Title>
             <Pictures>
                 <Image src={photoPrice.src} />
             </Pictures>
-            <Text2>
+            <Text>
                 Действует акция при наращивании волос тонирование и укладка в подарок!
-            </Text2>
-            <Link href="https://api.whatsapp.com/send?phone=79508107069">
+            </Text>
+            <Link href="https://wa.me/message/JYI57WGO7TFPD1">
                 <Button>
                     <TextButton>
                         Рассчитать стоимость  и объем в WhatsApp

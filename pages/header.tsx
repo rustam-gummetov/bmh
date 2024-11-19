@@ -18,7 +18,7 @@ const header = () => {
                 <Link href="https://instagram.com/beauty.mos_hair?igshid=NTc4MTIwNjQ2YQ==">
                     <Image src={Inst.src} />
                 </Link>
-                <Link href="https://t.me/Rustam072000">
+                <Link href="https://t.me/beautymos_hair">
                     <Image src={Telegram.src} />
                 </Link>
             </NetworksContainer>

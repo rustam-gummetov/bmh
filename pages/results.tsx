@@ -27,7 +27,7 @@ const content = () => {
                 Больше фото вы можете найти в нашей группе ВКонтакте и Instagram
             </Text>
             <Button>
-                <Link href="https://api.whatsapp.com/send?phone=79508107069">
+                <Link href="https://wa.me/message/JYI57WGO7TFPD1">
                     <TextButton>
                         Записаться
                     </TextButton>

@@ -9,6 +9,7 @@ import Results from './results'
 import Technology from './technology'
 import Price from './price'
 import Connection from './connection'
+import Masters from './masters'
 
 const HomePage = () =>
 (
@@ -18,6 +19,7 @@ const HomePage = () =>
         <Services />
         <Results />
         <Technology />
+        <Masters />
         <Price />
         <Connection />
         {/* <Main> */}

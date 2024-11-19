@@ -14,13 +14,13 @@ const content = () => {
                 <Text>
                     BeautyMos_Hair - это команда профессионалов с большим опытом в работе с вашими волосами. Запишись прямо сейчас и получи  скидку на любую услугу студии!
                 </Text>
-                <Link href="#SignUpOnline">
-                    <Button>
+                <Button>
+                    <Link href="#SignUpOnline">
                         <TextButton>
                             Забронировать скидку
                         </TextButton>
-                    </Button>
-                </Link>
+                    </Link>
+                </Button>
             </Info>
         </Content>
     )

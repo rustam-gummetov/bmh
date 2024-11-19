@@ -27,41 +27,14 @@ export const Price = styled.div`
     }
 `
 
-export const Text = styled.p`
+export const Title = styled.h1`
+    font-size: 50px;
     color: white;
-    /* padding-top: 30px; */
-    font-size: 60px;
-    line-height: 100px;
+    padding: 10px;
     text-align: center;
 
-    @media (max-width: 1600px) {
-        font-size: 50px;
-        line-height: 80px;
-    }
-
-    @media (max-width: 1350px) {
-        font-size: 40px;
-        line-height: 70px;
-    }
-
-    @media (max-width: 1200px) {
-        font-size: 35px;
-        line-height: 60px;
-    }
-
-    @media (max-width: 1050px) {
-        font-size: 30px;
-        line-height: 50px;
-    }
-
-    @media (max-width: 910px) {
-        font-size: 25px;
-        line-height: 40px;
-    }
-
     @media (max-width: 767px) {
-        font-size: 30px;
-        line-height: 60px;
+        font-size: 35px;
     }
 `
 
@@ -71,8 +44,8 @@ export const Pictures = styled.div`
     /* display: inline-block; */
     padding-top: 30px;
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 30px 15px;
+    /* grid-template-columns: auto auto;
+    gap: 30px 15px; */
     justify-content: center;
     width: auto;
 
@@ -104,7 +77,7 @@ export const Image = styled.img`
     }
 `
 
-export const Text2 = styled.p`
+export const Text = styled.p`
     display: block;
     color: #5c5959;
     /* padding-bottom: 30px; */

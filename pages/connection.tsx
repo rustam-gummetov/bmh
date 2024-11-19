@@ -17,13 +17,13 @@ const connection = () => {
                     Пишите нам онлайн:
                 </Text>
                 <Pictures>
-                    <Link href="https://t.me/Rustam072000">
+                    <Link href="https://t.me/beautymos_hair">
                         <Image src={Telegram.src} />
                     </Link>
-                    <Link href="https://api.whatsapp.com/send?phone=79508107069">
+                    <Link href="https://wa.me/message/JYI57WGO7TFPD1">
                         <Image src={WhatsApp.src} />
                     </Link>
-                    <Link href="viber://add?number=79508107069">
+                    <Link href="viber://add?number=79958807065">
                         <Image src={Viber.src} />
                     </Link>
                 </Pictures>
@@ -31,10 +31,14 @@ const connection = () => {
                     Или звоните:
                 </Text>
                 <Text>
-                    +79508107069
+                    <Link href="tel:+79958807065">
+                        +7 (995) 880-70-65
+                    </Link>
                 </Text>
                 <Text>
-                    +79048375193
+                    <Link href="tel:+79048375193">
+                        +7 (904) 837-51-93
+                    </Link>
                 </Text>
             </Info>
         </Connection>
